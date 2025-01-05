@@ -25,7 +25,7 @@ def selection_sort(a_list):
     return exchanges
 
 def bubble_sort(a_list):
-    exchanges = 0  # Counter for exchanges
+    exchanges = 0  # Counter for exchanges 
     for i in range(len(a_list) - 1, 0, -1):
         swapped = False  # Track if any swaps occur during this pass
         for j in range(i):
