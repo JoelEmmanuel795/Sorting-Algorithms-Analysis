@@ -1,4 +1,4 @@
-import time
+import time 
  
 def insertion_sort(a_list):
     exchanges = 0  # Counter for exchanges
