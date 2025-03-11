@@ -1,8 +1,8 @@
 import time
- 
-def insertion_sort(a_list): 
-    exchanges = 0  # Counter for exchanges 
-    for i in range(1, len(a_list)): 
+
+def insertion_sort(a_list):
+    exchanges = 0  # Counter for exchanges
+    for i in range(1, len(a_list)):
         cur_val = a_list[i]
         cur_pos = i
         while cur_pos > 0 and a_list[cur_pos - 1] > cur_val:
