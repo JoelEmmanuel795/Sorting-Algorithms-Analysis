@@ -1,6 +1,6 @@
-import time 
+import time
 
-def insertion_sort(a_list): 
+def insertion_sort(a_list):
     exchanges = 0  # Counter for exchanges
     for i in range(1, len(a_list)):
         cur_val = a_list[i]
